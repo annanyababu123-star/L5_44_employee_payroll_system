@@ -1,7 +1,5 @@
 # Reflection
 
-> Note: the handout pages I had did not include the four reflection questions, so these are the standard ones for this lab. Replace the headings with the exact wording from your handout if it differs.
-
 **1. Which tool was most useful, and why?**
 Bandit was the most valuable. Its two High findings (shell injection via `os.system`, MD5) and the `eval` finding were the real risks in this file. Pylint was the most thorough overall (5.32 to 10.00) and also caught the mutable default argument, a genuine bug. Flake8 was the narrowest, mostly style that Pylint also reported.
 
